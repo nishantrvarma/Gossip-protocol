@@ -23,7 +23,7 @@ In Push-sum, N number of actors are created and each actor has an S value and a 
 
 # Largest Networks Built
 
-A. Gossip Algorithm 
+A. Gossip Algorithm
       Full Network : 50,000 
       2D Grid : 200,000 
       Line : 10,000 
@@ -34,3 +34,5 @@ B· Push-Sum Algorithm
       2D Grid : 1,000 
       Line : 100 
       Imperfect 2D Grid : 10,000
+      
+
