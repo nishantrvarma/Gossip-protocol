@@ -22,14 +22,13 @@ In gossip, N number of actors are created and each actor passes messages to its 
 In Push-sum, N number of actors are created and each actor has an S value and a W value. The S value is initially set to the corresponding index or actor number of the actor. The W value is initialized to 1. At each round, one actor passes half of its S and W values to a neighbour depending on the topology. The actor that receives these values, adds them to its own S and W values before transmitting it again to it's neighbour. If a particular actor's S/W ratio does not change more than 10^-10 over 3 consecutive rounds, then the actor is said to terminate and the ratio has reached convergence. Terminated actors do not send their S,W values and insted pass whatever value they receive onwards to other neighbours that have not yet terminated. In our network, convergence is reached when 80% of the nodes in the network have reached convergence.
 
 # Largest Networks Built
-
-A. Gossip Algorithm
+    # Gossip Algorithm
       Full Network : 50,000 
       2D Grid : 200,000 
       Line : 10,000 
       Imperfect 2D Grid : 200,000
 
-B· Push-Sum Algorithm 
+    # Push-Sum Algorithm 
       Full Network : 10,000 
       2D Grid : 1,000 
       Line : 100 
